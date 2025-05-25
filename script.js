@@ -103,6 +103,8 @@ function write(e){
                 break;
         }
         screenNew.textContent=screenNew.textContent.slice(0,5);
+        screenOld.textContent=screenNew.textContent;
+        screenNew.textContent="";
     }
 
 }
